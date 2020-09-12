@@ -1,15 +1,7 @@
 {
   "name": "eslint-config-kael89",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration for JavaScript projects",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kael89/eslint-config-kael89.git"
-  },
   "keywords": [
     "javascript",
     "eslint",
@@ -17,24 +9,45 @@
     "airbnb",
     "react.js"
   ],
-  "author": "Kostas Karvounis <kos.karvounis.zoumpos@gmail.com> (https://codinglicks.com)",
-  "license": "ISC",
+  "homepage": "https://github.com/kael89/eslint-config-kael89#readme",
   "bugs": {
     "url": "https://github.com/kael89/eslint-config-kael89/issues"
   },
-  "homepage": "https://github.com/kael89/eslint-config-kael89#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael89/eslint-config-kael89.git"
+  },
+  "license": "MIT",
+  "author": "Kostas Karvounis <kos.karvounis.zoumpos@gmail.com> (https://codinglicks.com)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.19.0",
+    "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-jest-formatting": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-simple-import-sort": "^5.0.3"
   },
   "peerDependencies": {
     "eslint": ">= 7.2",
-    "prettier": ">= 1.13"
+    "jest": ">= 26.0",
+    "prettier": ">= 1.13",
+    "react": ">= 16.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.1",
+    "react": "^16.13.1"
   }
 }

@@ -39,4 +39,9 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'simple-import-sort/sort': 'warn',
   },
+  settings: {
+    jest: {
+      version: 26,
+    },
+  },
 };

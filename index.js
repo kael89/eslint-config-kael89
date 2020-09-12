@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:jest/recommended', 'plugin:prettier/recommended', 'prettier/react'],
+  extends: [
+    'airbnb',
+    'plugin:jest/recommended',
+    'plugin:jest-formatting/recommended',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
   plugins: ['simple-import-sort'],
   rules: {
     'import/order': 'warn',

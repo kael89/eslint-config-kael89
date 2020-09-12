@@ -2,14 +2,6 @@
   "name": "eslint-config-kael89",
   "version": "1.1.0",
   "description": "ESLint configuration for JavaScript projects",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kael89/eslint-config-kael89.git"
-  },
   "keywords": [
     "javascript",
     "eslint",
@@ -17,12 +9,20 @@
     "airbnb",
     "react.js"
   ],
-  "author": "Kostas Karvounis <kos.karvounis.zoumpos@gmail.com> (https://codinglicks.com)",
-  "license": "ISC",
+  "homepage": "https://github.com/kael89/eslint-config-kael89#readme",
   "bugs": {
     "url": "https://github.com/kael89/eslint-config-kael89/issues"
   },
-  "homepage": "https://github.com/kael89/eslint-config-kael89#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael89/eslint-config-kael89.git"
+  },
+  "license": "ISC",
+  "author": "Kostas Karvounis <kos.karvounis.zoumpos@gmail.com> (https://codinglicks.com)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",

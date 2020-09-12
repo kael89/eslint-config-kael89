@@ -41,7 +41,10 @@ module.exports = {
   },
   settings: {
     jest: {
-      version: 26,
+      version: '26',
+    },
+    react: {
+      version: '16',
     },
   },
 };

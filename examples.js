@@ -1,6 +1,8 @@
 /**
- * Errors
- */
+|--------------------------------------------------
+| Errors
+|--------------------------------------------------
+*/
 
 // no-unused-vars
 let a;
@@ -16,8 +18,10 @@ for (const key in {}) {
 const CheckExtension = () => <h1></h1>;
 
 /**
- * Warnings
- */
+|--------------------------------------------------
+| Warnings
+|--------------------------------------------------
+*/
 
 /* eslint-disable import/first */
 import React from 'react';
@@ -25,9 +29,10 @@ import Jest from 'jest';
 /* eslint-enable import/first */
 
 /**
- * Correct
- */
-
+|--------------------------------------------------
+| Correct
+|--------------------------------------------------
+*/
 // import/prefer-default-export
 export const func = () => {};
 
@@ -54,7 +59,7 @@ const main = () => dependency();
 const dependency = () => {};
 
 // radix
-const int = parseInt(10);
+const int = parseInt('10');
 
 // react/jsx-props-no-spreading
 const AllowPropsSpreading = props => <a {...props}>link</a>;

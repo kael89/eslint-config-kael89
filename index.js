@@ -50,7 +50,7 @@ module.exports = {
       version: '26',
     },
     react: {
-      version: '16',
+      version: '16.2',
     },
   },
 };

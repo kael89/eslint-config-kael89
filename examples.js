@@ -33,6 +33,7 @@ import Jest from 'jest';
 | Correct
 |--------------------------------------------------
 */
+
 // import/prefer-default-export
 export const func = () => {};
 

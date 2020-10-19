@@ -15,15 +15,25 @@ This the base [ESLint](https://eslint.org/) configuration I use in personal Java
 1. Install the package and its minimum required peer dependencies:
 
 ```bash
-npm install kael89/eslint-config-kael89#v1.1.0 eslint prettier
+npm install -D kael89/eslint-config-kael89#v1.1.3 eslint prettier
 ```
 
-2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring). The simplest way to do so is adding an `eslintConfig` stanza in your project's `package.json`:
+2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
 
 ```json
-  "eslintConfig": {
-    "extends": "kael89"
-  }
+{
+  "extends": "@beyondessential/js"
+}
 ```
+
+⚠️ If you use [Babel](https://babeljs.io/), you have to also install and use [babel-eslint](https://www.npmjs.com/package/babel-eslint):
+
+```json
+{
+  "parser": "babel-eslint"
+}
+```
+
+---
 
 **Author:** Kostas Karvounis https://codinglicks.com

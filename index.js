@@ -8,6 +8,7 @@ module.exports = {
   ],
   plugins: ['simple-import-sort'],
   rules: {
+    'class-methods-use-this': 'off',
     'import/order': 'warn',
     'import/prefer-default-export': 'off',
     'no-continue': 'off',

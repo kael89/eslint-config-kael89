@@ -34,6 +34,11 @@ import Jest from 'jest';
 |--------------------------------------------------
 */
 
+// class-methods-use-this
+class Class {
+  bar() {}
+}
+
 // import/prefer-default-export
 export const func = () => {};
 

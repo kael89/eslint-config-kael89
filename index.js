@@ -44,7 +44,7 @@ module.exports = {
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
-    'simple-import-sort/sort': 'warn',
+    'simple-import-sort/imports': 'warn',
   },
   settings: {
     jest: {

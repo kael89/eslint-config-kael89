@@ -24,8 +24,10 @@ const CheckExtension = () => <h1></h1>;
 */
 
 /* eslint-disable import/first */
+/* eslint-disable jest/no-jest-import */
 import React from 'react';
 import Jest from 'jest';
+/* eslint-enable jest/no-jest-import */
 /* eslint-enable import/first */
 
 /**

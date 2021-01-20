@@ -15,14 +15,14 @@ This the base [ESLint](https://eslint.org/) configuration I use in personal Java
 1. Install the package and its minimum required peer dependencies:
 
 ```bash
-npm install -D kael89/eslint-config-kael89#v1.2.1 eslint prettier
+npm install -D kael89/eslint-config-kael89#v1.2.2 eslint prettier
 ```
 
 2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
 
 ```json
 {
-  "extends": "@beyondessential/js"
+  "extends": "kael89"
 }
 ```
 

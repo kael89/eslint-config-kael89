@@ -22,7 +22,7 @@ npm install -D kael89/eslint-config-kael89#v1.2.2 eslint prettier
 
 ```json
 {
-  "extends": "@beyondessential/js"
+  "extends": "kael89"
 }
 ```
 

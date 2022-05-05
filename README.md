@@ -1,5 +1,7 @@
 # eslint-config-kael89
 
+**⚠️ Note: this repository has been deprecated. Use [kael89-eslint](https://github.com/kael89/kael89-eslint) instead**
+
 ## ESLint configuration for JavaScript projects
 
 This the base [ESLint](https://eslint.org/) configuration I use in personal JavaScript projects, as an installable `npm` package:
